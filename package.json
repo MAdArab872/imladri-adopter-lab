@@ -1,0 +1,14 @@
+{
+  "name": "imladri-adopter-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "init:all": "node scripts/generate-init-profiles.mjs",
+    "mcp:configs": "node scripts/generate-mcp-configs.mjs",
+    "verify": "node scripts/generate-init-profiles.mjs && node scripts/generate-mcp-configs.mjs && node scripts/verify-public-lab.mjs"
+  },
+  "engines": {
+    "node": ">=20.15.0"
+  }
+}

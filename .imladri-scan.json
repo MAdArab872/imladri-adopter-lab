@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "imladri.scan.config.v1",
+  "ignore": [
+    "node_modules/**",
+    "logs/**",
+    ".imladri/**"
+  ],
+  "rules": {
+    "secrets": true,
+    "unsafeAgentActions": true,
+    "unguardedToolCalls": true
+  }
+}

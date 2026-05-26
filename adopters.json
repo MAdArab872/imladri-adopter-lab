@@ -1,0 +1,22 @@
+[
+  { "slug": "langchain", "framework": "langchain", "ciProvider": "github" },
+  { "slug": "openai-agents", "framework": "openai-agents", "ciProvider": "github" },
+  { "slug": "vercel-ai-sdk", "framework": "vercel-ai", "ciProvider": "vercel" },
+  { "slug": "llamaindex", "framework": "llamaindex", "ciProvider": "github" },
+  { "slug": "langgraph", "framework": "langgraph", "ciProvider": "github" },
+  { "slug": "haystack", "framework": "haystack", "ciProvider": "github" },
+  { "slug": "autogen", "framework": "autogen", "ciProvider": "github" },
+  { "slug": "generic-http", "framework": "generic", "ciProvider": "github" },
+  { "slug": "crew-ai", "framework": "crewai", "ciProvider": "github" },
+  { "slug": "pydantic-ai", "framework": "pydantic-ai", "ciProvider": "github" },
+  { "slug": "semantic-kernel", "framework": "semantic-kernel", "ciProvider": "github" },
+  { "slug": "mastra", "framework": "mastra", "ciProvider": "github" },
+  { "slug": "dspy", "framework": "dspy", "ciProvider": "github" },
+  { "slug": "dify", "framework": "dify", "ciProvider": "github" },
+  { "slug": "flowise", "framework": "flowise", "ciProvider": "github" },
+  { "slug": "n8n", "framework": "n8n", "ciProvider": "github" },
+  { "slug": "zapier-ai", "framework": "zapier-ai", "ciProvider": "github" },
+  { "slug": "botpress", "framework": "botpress", "ciProvider": "github" },
+  { "slug": "rasa", "framework": "rasa", "ciProvider": "github" },
+  { "slug": "smolagents", "framework": "smolagents", "ciProvider": "github" }
+]

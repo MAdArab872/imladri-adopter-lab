@@ -1,0 +1,16 @@
+name: Imladri Public Lab Verify
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  public-lab-verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+      - name: Verify generated public artifacts
+        run: npm run verify
